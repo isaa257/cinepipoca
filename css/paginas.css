@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 24px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
+.navigation link {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
