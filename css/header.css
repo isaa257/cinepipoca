@@ -1,4 +1,10 @@
-/* header {
+h1{
+  color:white ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: rgb(2, 2, 165);
+}
+
+header {
     display: flex;
     align-items: center;
     column-gap: 64px;
@@ -7,6 +13,7 @@
     max-width: 1440px;
     padding-top: 24px;
 }
+
 
 header img {
     width: 90px;
@@ -25,5 +32,5 @@ header img {
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
-} */
+} 
 

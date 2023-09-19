@@ -2,6 +2,18 @@ body {
     background-color: black;
 }
 
+body form {
+    background-color: black;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -23,4 +35,62 @@ header{
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    max-width: 500px;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #660700;
+    box-shadow: 5px 0px 9px black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: #66FFFF;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
 }

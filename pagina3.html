@@ -4,27 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/paginas.css">
     <title>Contato</title>
 </head>
 
 <body>
+
+    <body>
+        <header>
+            <img src="assets/LogoSample_ByTailorBrands-removebg-preview.png" alt="">
+            <ul class="navigation">
+                <li>
+                    <a href="index.html" class="navigation_link">Home</a>
+                </li>
+                <li>
+                    <a href="paginas2.html" class="navigation_link">Sobre Filmes</a>
+                </li>
+                <li>
+                    <a href="pagina3.html" class="navigation_link">Contato</a>
+                </li>
+                <li>
+                    <a href="pagina4.html" class="navigation_link">Trailers</a>
+                </li>
+            </ul>
+    
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand"></a>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-secondary" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+        </header>
+
+     
     <form name="contato">
 
 <h1>Entre em contato</h1>
 
 <label for="nome">Nome</label>
-<input type="text" id="nomeid" name="nome" placeholder="nome aqui" required="required">
+<input type="text" id="nomeid" name="nome" placeholder="Nome aqui" required="required">
 
 <label for="nome">Telefone</label>
-<input type="tel" id="foneid" placeholder="(xx)xxxx-xxxxx" name="fone">
+<input type="tel" id="foneid" placeholder="(xx)xxxx-xxxxx" name="fone" required="required">
 
 <label for="nome">E-mail</label>
-<input type="tel" id="foneid" placeholder="xxxxx_00@gmail.com" name="fone">
+<input type="tel" id="foneid" placeholder="xxxxx_00@gmail.com" name="fone" required="required">
+
+<textarea placeholder="Digite sugestões de filmes ou comentários"></textarea>
+
+<input type="submit" class="Enviar" onclick="Enviar();" value="Enviar">
+<input type="submit" class="Cancelar" onclick="Cancelar();" value="Cancelar">
 
 
 
 
-    </form>
+
+</form>
 
 </body>
 </html>
